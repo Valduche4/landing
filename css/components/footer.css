@@ -1,0 +1,21 @@
+.footer {
+  background-image: url("https://w7.pngwing.com/pngs/126/461/png-transparent-textured-textures-black-texture-background-texture-black-texture-poster-banner-textured.png");
+  margin: 0;
+}
+
+.footer > p {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  margin: 0;
+}
+
+.list {
+  text-align: center;
+  font-size: 40px;
+}
+
+.fab {
+  color: white;
+  display: inline-block;
+}

@@ -1,0 +1,92 @@
+/* Your card CSS file */
+.card {
+  margin: 20px;
+}
+
+.plaisir {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQELuYRmHQ_x8A/profile-displayphoto-shrink_200_200/0/1596646811639?e=1656547200&v=beta&t=XHMPsDBwQYTxPZZUPX2aHqb-nyV4gnneJscQ047tqK0");
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+.card-category h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  text-shadow: 2px 2px 2px rgb(0,0,0);
+  text-align: center;
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  background-color: white;
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+
+.card-product h2, .card-product p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.card-product p {
+  color: gray;
+}
+
+.card-trip {
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 2px 2px 1px rgb(30,30,30, 0.5);
+}
+
+.card-trip .avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 80px;
+  right: 52px;
+  border: 1px solid black;
+}
+
+.card-trip img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.card-trip-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-trip-info > h2 {
+  font-size: 15px;
+  color: gray;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.infos {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.infos p {
+  color: red;
+}
